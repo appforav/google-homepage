@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google</title>
+    <link rel="icon" href="icon.png">
+
+      <style>
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        text-decoration: none;
+        padding: 5px;
+        color:#757575;
+        cursor: pointer;
+      }
+      a:hover {
+        text-decoration: underline;
+        opacity: 0.85;
+      }
+      .toolbar {
+        align-items: center;
+        display: flex;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+      .toolbar a {
+        font-size: 14px;
+        display: inline-block;
+      }
+      .toolbar img {
+        width: 34px;
+        padding: 5px;
+        cursor: pointer;
+      }
+      .toolbar img:hover {
+        opacity: 0.85;
+      }
+      .toolbar button {
+        border: 1px solid #757575;
+        font-weight: bold;
+        color: white;
+        border-radius: 3px;
+        background-color: #4285f4;
+        padding: 7px 12px;
+        cursor: pointer;
+      }
+      .div1 .logo {
+        align-items: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 30%;
+      }
+      .search {
+        width: 580px;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 8px;
+        align-items: center;
+        text-align: center;
+      }
+      .search .input {
+        display: block;
+        border: 1px solid #ddd;
+        color: rgba(0,0,0,0.87);
+        font-size: 16px;
+        padding: 13px;
+        padding-left: 45px;
+        border-radius: 25px;
+        width: 100%;
+      }
+      .search .input:hover {
+        box-shadow: 3px 3px rgba(221, 218, 218, 0.87);
+      }
+      .search .search-icon {
+        width: 20px;
+        opacity: 0.4;
+        position: absolute;
+        top: 13px;
+        left: 14px;
+      }
+      .search .mic {
+        width: 24px;
+        position: absolute;
+        top: 13px;
+        right: 24px;
+      }
+      .s-button {
+        border: 1px transparent;
+        padding: 10px 15px;
+        color: #666;
+        font-size: 14px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 28px;
+        outline: none;
+        cursor: pointer;
+      }
+      .s-button:hover {
+        border: 1px solid #aaa;
+      }
+      .language {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 13px;
+        color: #111;
+      }
+      .language a {
+        margin-left: 5px;
+        color: #1a0dab;
+      }
+      footer {
+        background: #f2f2f2;
+        height: 30px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+      footer a {
+        color: #5f6368;
+        display: inline-block;
+        padding: 0px 12px;
+        font-size: 14px;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .left {
+        position: absolute;
+        bottom: 7px;
+        left: 10px;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      .right {
+        position: absolute;
+        bottom: 7px;
+        right: 10px;
+        text-align: right;
+        font-size: 14px;
+      }
+
+      </style>
+  </head> 
+  <body>
+    <nav>
+    <div class="toolbar">
+     <a href="#">Gmail</a>
+     <a href="#">Images</a>
+     <img src="google-app-icon.png">
+     <button>Sign in</button> </div>
+    </nav>
+    
+  <div class="div1">  
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> 
+    <form>
+      <div class="search">
+        <img class="search-icon" src="search.png">
+        <input type="text" class="input">
+        <img src="google-mic.png" class="mic">
+        <input type="button" class="s-button" value="Google Search">
+        <input type="button" class="s-button" value="I'm Feeling Lucky">
+      </div>
+    </form>
+    <div class="language">
+      Google offered in:
+      <a href="#">Turkey</a>
+    </div>
+  </div>
+
+
+  <footer class="info">
+  <div class="left">
+    <a href="#">About</a>
+    <a href="#">Advertising</a>
+    <a href="#">Marketing</a>
+    <a href="#">How searching works?</a>
+  </div>
+
+  <div class="right">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Settings</a>
+  </div>
+
+</footer>
+  </body>
+</html>
